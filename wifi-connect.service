@@ -4,8 +4,8 @@ After=network-online.target
 Wants=network-online.target
 
 [Service]
-ExecStart=/home/thinh/wifi-connect-wrapper.sh
-WorkingDirectory=/home/thinh
+ExecStart=/home/thinh/pi-wifi-connect/wifi-connect-wrapper.sh
+WorkingDirectory=/home/thinh/pi-wifi-connect
 Restart=always
 User=thinh
 

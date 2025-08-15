@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WIFI_CONNECT_BIN="/home/thinh/wifi-connect"
+WIFI_CONNECT_BIN="/home/thinh/pi-wifi-connect/wifi-connect"
 sleep 60
 while true; do
     # Check if wlan0 is connected to Wi-Fi
